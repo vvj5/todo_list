@@ -35,7 +35,7 @@ class TodoList
 
   def view_todos
     @todos.each do |item|
-    puts "   #{item.id}) #{item.entry}   "
+    puts "   #{item.id}) #{item.entry} #{item.completed}  "
     end
   end
 
